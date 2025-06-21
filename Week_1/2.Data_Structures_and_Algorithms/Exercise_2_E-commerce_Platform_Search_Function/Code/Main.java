@@ -33,7 +33,7 @@ public class Main {
             new Product(1, "Laptop", "Electronics"),
             new Product(2, "Shoes", "Fashion"),
             new Product(3, "Watch", "Accessories"),
-            new Product(4, "Phone", "Electronics")
+            new Product(4, "Mobile", "Electronics")
         };
 
         System.out.println("Linear Search: Looking for 'Watch'");
@@ -47,6 +47,6 @@ public class Main {
         System.out.println(foundBinary != null ? "Found: " + foundBinary : "Product not found");
 
         System.out.println("\nResults of Linear Search vs Binary Search:");
-        System.out.println("For worst case, the time complexity is O(log n) for binary search, while linear search has a time complexity of O(n).\n");
+        System.out.println("For worst case, the time complexity is O(log n) for binary search ,while linear search has a time complexity of O(n).\n");
     }
 }
