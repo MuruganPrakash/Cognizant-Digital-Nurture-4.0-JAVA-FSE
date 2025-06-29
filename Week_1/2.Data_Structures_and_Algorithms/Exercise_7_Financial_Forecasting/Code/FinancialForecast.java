@@ -1,4 +1,3 @@
-
 public class FinancialForecast {
 
     public static double futureValue(double initialAmount, double rate, int years) {
